@@ -16,7 +16,7 @@ export default defineAppConfig({
     logo: {
       alt: '',
       light: '',
-      dark: ''
+      dark: true
     },
     search: true,
     colorMode: true,
