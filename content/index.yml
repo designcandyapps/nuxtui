@@ -1,8 +1,8 @@
 title: 'Nuxt UI Pro - Docs template'
 description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
-navigation: false
+navigation: true
 hero:
-  title: 'Experience the new web.'
+  title: 'Experiences the new web.'
   description: 'Lorem ipsum dolor sit amet, consectur adipiscing elit.'
   orientation: horizontal
   headline:
