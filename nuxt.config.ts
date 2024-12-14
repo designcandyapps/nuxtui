@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     'nuxt-og-image'
   ],
   hooks: {
-    // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
+    // Define `@nuxt/ui` components; Used in .md
     'components:extend': (components) => {
       const globals = components.filter(c => ['UButton', 'UIcon'].includes(c.pascalName))
       globals.forEach(c => c.global = true)
