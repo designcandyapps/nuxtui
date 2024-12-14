@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   extends: ['@nuxt/ui-pro'],
   build: {
-    buildDir: 'dist'
+    buildDir:'dist'
   },
   modules: [
     '@nuxt/content',
