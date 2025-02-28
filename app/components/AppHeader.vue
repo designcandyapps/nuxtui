@@ -11,7 +11,7 @@ const { header } = useAppConfig()
         <UColorModeImage v-bind="{ class: 'h-6 w-auto', ...header?.logo }" />
       </template>
       <template v-else>
-        Nuxt UI Pro
+        <img id="ee" src="https://pinfluents.com/_BCK/4/im/dc.png" width="60" height="60">
       </template>
     </template>
 
